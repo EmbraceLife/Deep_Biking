@@ -77,7 +77,7 @@ providers = spec.get_provider(
 					- `provider` is assigned using `Provider.get_provider_by_name(provider_spec.pop('name'))`
 
 11. If 'name' is not a key of `provider_spec`:
-					- assign `Kurfile.DEFAULT_PROVIDER` to `provider_spec`
+					- assign `Kurfile.DEFAULT_PROVIDER` to `provider`
 					- default is `BatchProvider`
 
 12. Finally, return a dict:
